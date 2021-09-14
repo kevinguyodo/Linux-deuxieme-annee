@@ -4,6 +4,6 @@
 
 
 Sommaire avec lien : 
- * [Plan adopté afin de mener à bien se projet](https://github.com/kevinguyodo/Linux-deuxieme-annee/edit/main/TP1/Plan.md)
+ * [Plan adopté afin de mener à bien se projet](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Plan.md)
 
- * [Conclusion](https://github.com/kevinguyodo/Linux-deuxieme-annee/edit/main/TP1/conclusion.md)
+ * [Conclusion](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/conclusion.md)
