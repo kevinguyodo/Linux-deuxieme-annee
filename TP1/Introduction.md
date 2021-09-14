@@ -1,6 +1,7 @@
-Introduction
+# Bonjour et bienvenue dans la présentation de ce TP
 
-Explication de l'ennoncé
+## Tout d'abord ce TP avait pour but de mettre en place un outil de support permettant à des personnes d'entreprise de suivre une formation en informatique, mais aussi cet outil permettra aux formateurs d'anticiper les actions à réaliser. Car avec la situation sanitaire actuelle, 80% des personnes suivent cette formation à distance et le reste dans des locaux.
+
 
 Sommaire avec lien : 
 
