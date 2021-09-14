@@ -4,7 +4,7 @@
 
 
 # Sommaire : 
- * [Plan adopté afin de mener à bien se projet](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Plan.md)
+ * [Stratégie adopté](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Plan.md)
    *  [Installation Machine Virtuelle](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Installation%20VM.md)
 
  * [Conclusion](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/conclusion.md)
