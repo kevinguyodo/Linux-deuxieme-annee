@@ -7,3 +7,5 @@ Avant d'exposer le plan, il nous faudra pour se projet une machine virtuelle pos
 3. Création et configuration de l'outil de gestion de ticket (GLPI)
 4. Ajout d'un plugin de remontée de poste client afin de réaliser l'inventaire du parc (Fusion Inventory) 
 5. Mettre en place une sauvegarde de GLPI (configuration d'une tache CRON)
+
+[Etape 1 : Création de la machine virtuelles](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Création%20VM.md)
