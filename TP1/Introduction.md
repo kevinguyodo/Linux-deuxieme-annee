@@ -11,4 +11,4 @@
    *  [Ajout FusionInventory](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Ajout%20FusionInventory.md)
    *  [Création sauvegarde](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Sauvegarde%20GLPI.md)
 
- * [Conclusion](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/conclusion.md)
+ * [Conclusion](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Conclusion.md)
