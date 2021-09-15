@@ -9,4 +9,5 @@ Avant d'exposer le plan, il nous faudra pour se projet une machine virtuelle pos
 5. Mettre en place une sauvegarde de GLPI (configuration d'une tache CRON)
 
 [Revenir à l'introduction](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Introduction.md)
+
 [Etape 1 : Création de la machine virtuelles](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Création%20VM.md)
