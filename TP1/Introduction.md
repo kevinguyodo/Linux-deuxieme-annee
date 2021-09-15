@@ -7,5 +7,6 @@
  * [Stratégie adopté](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Plan.md)
    *  [Installation Machine Virtuelle](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Installation%20VM.md)
    *  [Réglages réseaux](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/R%C3%A9glages%20r%C3%A9seaux.md)
+   *  [Création GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
 
  * [Conclusion](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/conclusion.md)
