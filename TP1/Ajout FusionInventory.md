@@ -81,6 +81,13 @@ http://localhost:62354
 Une fenêtre devrait s'ouvrir et elle devrait ressembler à ceci, si c'est le cas alors tout est OK :
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/fusioinventory_after_installing.PNG)
 
+### Une dernière vérification
+
+Nous allons retourner sur l'interface web, et on va dans le menu "Administration" puis "FusionInventory".
+
+Et dans le menu horizontal, nous allons dans "Général" puis "Gestion d'agents", et alors une ligne devrait apparaitre, elle ressemblerait à ceci :
+![]()
+
 
 [Retour à l'étape précédente : Création d'une GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
 
