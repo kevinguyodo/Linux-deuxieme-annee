@@ -23,6 +23,12 @@ La première étape pour créer une machine virtuelle est de sélectionner l'ima
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Etape2.PNG)
 
+La prochaine étape est de donner un nom à votre machine virtuelle.
+
+Ensuite nous allons attribuer un nombre de Go de mémoire à la VM, par défault VMWare propose 20Go.
+
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Etape4.PNG)
+
 [Retour au plan](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Plan.md)
 
 [Prochaine étape : Configuration réseau des VM](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/R%C3%A9glages%20r%C3%A9seaux.md)
