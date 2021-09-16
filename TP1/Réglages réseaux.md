@@ -34,7 +34,7 @@ Après avoir constaté l'Ip de la VM serveur, nous devons vérifier l'adresse Ip
 ipconfig
 ```
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/ip_windows.png)
 
 
 [Retour à l'étape précédente : Installation des machines virtuelles](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Installation%20VM.md)
