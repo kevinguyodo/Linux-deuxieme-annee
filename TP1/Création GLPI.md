@@ -19,7 +19,7 @@ Donc dans le terminal linux, nous allons installer beaucoup d'outils afin de tra
 * Etape 8, Création d'une base de données : ```mysql -u root -p```
 * Etape 9, Création base de données partie2 : ```MariaDB [(none)]> create database glpidb; 
 MariaDB [(none)]> grant all privileges on glpidb.* to glpiuser@localhost identified by "votre-mot-de-passe";
-MariaDB [(none)]> quit ``` \\
+MariaDB [(none)]> quit ``` \
 * Etape 10
 
 
