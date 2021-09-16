@@ -29,6 +29,16 @@ Ensuite nous allons attribuer un nombre de Go de mémoire à la VM, par défault
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Etape4.PNG)
 
+Puis VMWare nous propose de voir nos paramètres que l'on a attribué à cette machine virtuelle.
+
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Etape5.PNG)
+
+Nous pouvons changer tout les paramètres en cliquant sur le bouton : "Customize Hardware...".
+
+Puis il s'agit d'installer la machine virtuelle, pour l'installation il faudra uniquement choisir la langue, language du clavier...
+
+### Super vous avez réussi avec succès l'installation de votre machine virtuelle, il faudra donc faire cette manipulation 2 fois afin d'avoir une machine virtuelle Windows et une machine virtuell Debian !!
+
 [Retour au plan](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Plan.md)
 
 [Prochaine étape : Configuration réseau des VM](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/R%C3%A9glages%20r%C3%A9seaux.md)
