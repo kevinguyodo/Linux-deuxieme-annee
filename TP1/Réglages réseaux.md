@@ -21,7 +21,7 @@ Une fois dans la VM serveur, il faudra chercher son adresse ip. Il suffira d'ouv
  ip addr
 ```
 
-Vous trouverez donc votre Ip comme indiqué ci-dessous
+Vous trouverez donc votre Ip comme indiqué ci-dessous en rouge :
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/ip.png)
 
