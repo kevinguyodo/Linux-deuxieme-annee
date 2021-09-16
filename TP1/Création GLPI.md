@@ -17,10 +17,12 @@ Donc dans le terminal linux, nous allons installer beaucoup d'outils afin de tra
 * Etape 6, Redémarrage service Apache2 : ```/etc/init.d/apache2 restart```
 * Etape 7, Redémarrage service MySQL : ```/etc/init.d/mysql restart```
 * Etape 8, Création d'une base de données : ```mysql -u root -p```
-* Etape 9, Création base de données partie2 : ```MariaDB [(none)]> create database glpidb; ```
-```MariaDB [(none)]> grant all privileges on glpidb.* to glpiuser@localhost identified by "votre-mot-de-passe";```
-```MariaDB [(none)]> quit ``` 
-* Etape 10
+* Etape 9, Création base de données partie 2 : ```MariaDB [(none)]> create database glpidb; ```
+* Etape 10, Création base de données partie 3 : ```MariaDB [(none)]> grant all privileges on glpidb.* to glpiuser@localhost identified by "votre-mot-de-passe";```
+* Etape 11, Création base de données partie 4 : ```MariaDB [(none)]> quit ``` 
+* Etape 12, Installation GLPI ligne de commande 1 : ``` cd /usr/src/```
+* Etape 13, Installation GLPI ligne de commande 2 : ```wget https://github.com/glpi-project/glpi/releases/download/9.3.3/glpi-9.3.3.tgz```
+* Etape 14, Installation GLPI ligne de commande 3 : ```tar -xvzf glpi-9.3.3.tgz -C /var/www/html```
 
 
 
