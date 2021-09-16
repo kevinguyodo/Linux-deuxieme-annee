@@ -48,7 +48,8 @@ Sur cette fenêtre on peut voir que le plugins a bien été détecté sur GLPI, 
 ### En cas du message d'alerte du cron sur GLPI, suivez les instructions suivantes :
 * Dans le terminal, exécutez les commandes suivantes
   * ```sudo crontab -u www-data -e```
-  * Puis sélectionnez 1 et une fenêtre apparait et frappez la commande suivante à la fin : ```*/1 * * * * /usr/bin/php5 /var/www/html/glpi/front/cron.php &>/dev/null```
+  * Puis sélectionnez 1 et une fenêtre apparait et frappez la commande suivante à la fin : 
+  * ```*/1 * * * * /usr/bin/php5 /var/www/html/glpi/front/cron.php &>/dev/null```
   *  
 
 [Retour à l'étape précédente : Création d'une GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
