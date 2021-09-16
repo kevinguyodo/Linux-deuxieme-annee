@@ -56,6 +56,11 @@ Sur cette fenêtre on peut voir que le plugins a bien été détecté sur GLPI, 
 * Cliquez dessus et cliquez sur le bouton "Executer" comme sur la photo ci-dessous.
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Etape10_fusioninventory.PNG)
 
+
+## Installation du logiciel FusionInventory Agent
+
+[Lien pour télécharger FusionInventory Agent](https://github.com/fusioninventory/fusioninventory-agent/releases)
+
 [Retour à l'étape précédente : Création d'une GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
 
 [Prochaine étape : Mise en place d'une sauvegarde ](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Sauvegarde%20GLPI.md)
