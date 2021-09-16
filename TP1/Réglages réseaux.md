@@ -36,6 +36,8 @@ ipconfig
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/ip_windows.PNG)
 
+#### On voit donc que les deux mêmes sont dans le même réseau car il y a uniquement leurs 3 derniers chiffres qui sont différents. On peut donc passer à l'étape suivante.
+
 
 [Retour à l'étape précédente : Installation des machines virtuelles](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Installation%20VM.md)
 
