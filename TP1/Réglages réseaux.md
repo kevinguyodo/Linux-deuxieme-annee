@@ -23,7 +23,7 @@ Une fois dans la VM serveur, il faudra chercher son adresse ip. Il suffira d'ouv
 
 Vous trouverez donc votre Ip comme indiqué ci-dessous
 
-![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/ip.PNG)
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/ip.png)
 
 
 [Retour à l'étape précédente : Installation des machines virtuelles](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Installation%20VM.md)
