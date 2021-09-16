@@ -78,6 +78,9 @@ Pour ceci nous allons ouvrir une page web, et dans l'URL nous allons entrer :
 http://localhost:62354
 ```
 
+Une fenêtre devrait s'ouvrir et elle devrait ressembler à ceci :
+![]()
+
 
 [Retour à l'étape précédente : Création d'une GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
 
