@@ -17,6 +17,11 @@ Une fois VMWare lancé, vous arrivez sur une interface graphique qui ressemble �
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Pr%C3%A9sentation_VMware.PNG)
 
+On peut voir à droite les machines virtuelles déjà créée. Et à droite on peut créer une machine virtuelle, et c'est donc cela que nous allons faire.
+
+La première étape pour créer une machine virtuelle est de sélectionner l'image ISO téléchargée précédement. En choisissant la deuxième option proposée.
+
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Etape2.PNG)
 
 [Retour au plan](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Plan.md)
 
