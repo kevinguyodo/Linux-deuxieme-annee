@@ -15,7 +15,7 @@ Nous avons donc tous les éléments permettant la création de deux machines vir
 
 Une fois VMWare lancé, vous arrivez sur une interface graphique qui ressemble à l'image ci-dessous.
 
-![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Pr%C3%A9sentation_VMware.PNG)
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Pr%C3%A9sentation_VMware.PNG =250x250)
 
 
 [Retour au plan](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Plan.md)
