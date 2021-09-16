@@ -10,7 +10,12 @@ sudo apt-get update && sudo apt-get upgrade
 Donc dans le terminal linux, nous allons installer beaucoup d'outils afin de travailler avec GLPI. Les commandes suivantes sont à rentrer dans le terminal.
 
 * Etape 1, Installer Apache2 : ``` sudo apt-get install apache2 php libapache2-mod-php ```
-* Etape 2, Installer PHP : ``` apt-get install php-imap php-ldap php-curl php-xmlrpc php-gd php-mysql php-cas ```
+* Etape 2, Installer PHP : ```sudo apt-get install php-imap php-ldap php-curl php-xmlrpc php-gd php-mysql php-cas ```
+* Etape 3, Installer MariaDB : 
+* ```sudo apt-get install mariadb-server
+mysql_secure_installation
+```
+* 
 
 
 
