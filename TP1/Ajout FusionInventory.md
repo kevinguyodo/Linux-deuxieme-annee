@@ -34,9 +34,21 @@ Désormais nous allons sur l'interface web, donc dans l'URL nous allons taper : 
 
 Puis dans le menu horizontal, nous allons cliquer sur Configuration puis Plugins.
 
+Puis suffira uniquement de cliqué sur le bouton "installé", dans la colonne "Conforme CSRF", puis cliqué sur "activer".
+
 La fenêtre qui va s'afficher devrait ressembler à l'image ci-dessous :
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Plugins.PNG)
+
+Sur cette fenêtre on peut voir que le plugins a bien été détecté sur GLPI, et le plugin est activé.
+
+
+##### Si vous souhaitez configurer le plugin, rendez-vous dans l'onget "Administration", puis "FusionInventory". Puis dans le menu horizontal vous pouvez configurer les tâches, les actions, le réseau...
+
+### En cas du message d'alerte du cron sur GLPI, suivez les instructions suivantes :
+* Dans le terminal, exécutez les commandes suivantes
+  * ```sudo crontab -u www-data -e```, puis sélectionnez 1 et une fenêtre apparait, puis frappez la commande suivante à la fin : ```*/1 * * * * /usr/bin/php5 /var/www/html/glpi/front/cron.php &>/dev/null```
+  *  
 
 [Retour à l'étape précédente : Création d'une GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
 
