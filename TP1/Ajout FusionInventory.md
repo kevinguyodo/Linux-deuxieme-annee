@@ -59,7 +59,11 @@ Sur cette fenêtre on peut voir que le plugins a bien été détecté sur GLPI, 
 
 ## Installation du logiciel FusionInventory Agent
 
-[Lien pour télécharger FusionInventory Agent](https://github.com/fusioninventory/fusioninventory-agent/releases)
+[Lien pour télécharger FusionInventory Agent sur Windows](https://github.com/fusioninventory/fusioninventory-agent/releases)
+
+Une fois téléchargé, vous devez éxecuter votre fichier en tant qu'administrateur.
+
+
 
 [Retour à l'étape précédente : Création d'une GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
 
