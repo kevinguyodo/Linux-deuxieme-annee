@@ -88,6 +88,8 @@ Nous allons retourner sur l'interface web, et on va dans le menu "Administration
 Et dans le menu horizontal, nous allons dans "Général" puis "Gestion d'agents", et alors une ligne devrait apparaitre, elle ressemblerait à ceci :
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Verification_fusioninventory.PNG)
 
+On voit donc qu'un ordinateur est bien relié aux GLPI qui est lui même relié aux fusioninventory agent.
+
 
 [Retour à l'étape précédente : Création d'une GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
 
