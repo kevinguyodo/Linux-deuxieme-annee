@@ -54,7 +54,7 @@ Sur cette fenêtre on peut voir que le plugins a bien été détecté sur GLPI, 
 * Sur l'interface web, allez sur le menu "Configuration" puis "Actions Automatiques"
 * Et cherchez la tâches se nommant TaskScheduler, elle se trouve généralement en deuxième pages.
 * Cliquez dessus et cliquez sur le bouton "Executer" comme sur la photo ci-dessous.
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Etape10_fusioninventory.PNG)
 
 [Retour à l'étape précédente : Création d'une GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
 
