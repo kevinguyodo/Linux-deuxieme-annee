@@ -10,7 +10,8 @@ Pour faire quelques réglages sur la VM il faudra tout d'abord la démarrer. Une
 3. Une fenêtre apparait avec tout les paramètres de votre machine, mais le paramètre qui nous intéresse, c'est celui qui se nomme "Network Adapter", il faudra donc cliquer dessus.
 4. Cocher la case "Bridged" et cocher la case "Replicate physical network connection state"
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/tree/main/TP1/IMG/Etape6.PNG)
+
 #### Il faudra faire ses instructions pour les 2 machines virtuelles
 
 ### Réglages réseaux dans les VM
