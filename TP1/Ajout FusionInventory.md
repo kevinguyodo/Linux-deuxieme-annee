@@ -78,7 +78,7 @@ Pour ceci nous allons ouvrir une page web, et dans l'URL nous allons entrer :
 http://localhost:62354
 ```
 
-Une fenêtre devrait s'ouvrir et elle devrait ressembler à ceci :
+Une fenêtre devrait s'ouvrir et elle devrait ressembler à ceci, si c'est le cas alors tout est OK :
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/fusioinventory_after_installing.PNG)
 
 
