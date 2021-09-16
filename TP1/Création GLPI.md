@@ -31,7 +31,7 @@ Afin de configurer le GLPI, on va ouvrir un moteur de recherche. Et on va tapez 
 
 1. Etape 1 : Choix du language
 
-![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/first_page_GLPI.PNG)
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/First_page_GLPI.PNG)
 
 2. Etape 2 : Accepter les termes de la licence énoncés
 
@@ -41,6 +41,21 @@ Afin de configurer le GLPI, on va ouvrir un moteur de recherche. Et on va tapez 
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/3eme_page_GLPI.PNG)
 
+4. Etape 4 : Vérifier que tout les paquets sont bien installés, puis appuyez sur continuer
+
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/4eme_page_GLPI.PNG)
+
+5. Etape 5 : Création d'un utilisateur SQL
+
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/5eme_page_GLPI.PNG)
+
+6. Etape 6 : Sélectionner la base de données précédement créée
+
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/6eme_page_GLPI.PNG)
+
+7. Etape 7 : Appuyé sur continuer et terminer l'installation.
+
+##### L'installation GLPI est désormais terminé
 
 
 [Retour à l'étape précédente : Réglage réseaux](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/R%C3%A9glages%20r%C3%A9seaux.md)
