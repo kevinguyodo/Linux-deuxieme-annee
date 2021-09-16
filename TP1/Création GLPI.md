@@ -11,10 +11,8 @@ Donc dans le terminal linux, nous allons installer beaucoup d'outils afin de tra
 
 * Etape 1, Installer Apache2 : ``` sudo apt-get install apache2 php libapache2-mod-php ```
 * Etape 2, Installer PHP : ```sudo apt-get install php-imap php-ldap php-curl php-xmlrpc php-gd php-mysql php-cas ```
-* Etape 3, Installer MariaDB : 
-* ```sudo apt-get install mariadb-server
-mysql_secure_installation
-```
+* Etape 3, Installer MariaDB partie 1 : ```sudo apt-get install mariadb-server```
+* Etape 4, Installer MariaDB partie 2 : `` mysql_secure_installation```
 * 
 
 
