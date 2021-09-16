@@ -63,6 +63,20 @@ Sur cette fenêtre on peut voir que le plugins a bien été détecté sur GLPI, 
 
 Une fois téléchargé, vous devez éxecuter votre fichier en tant qu'administrateur.
 
+Puis suivre les prochaines étapes:
+* Etape 1 = Appuyez sur "suivant"
+* Etape 2 = Cochez la case "FusionInventory", afin que tout les outils nécessaire soit installés, cliquez sur suivant
+* Etape 3 = Appuyez sur suivant, car le dossier d'installation est dans le bon répertoire de base
+* Etape 4 = Dans l'input en dessous de "Mode serveur", il faudra entrer "http://adresse_ip_serveur/glpi/plugins/fusioninventory/"
+* Etape 5 = Cliquez sur "Installer"
+
+L'installation est une réussite, or nous devons tester si fusioninventory agent est bien synchronisé avec GLPI. 
+
+Pour ceci nous allons ouvrir une page web, et dans l'URL nous allons entrer :
+
+```
+http://localhost:62354
+```
 
 
 [Retour à l'étape précédente : Création d'une GLPI](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Cr%C3%A9ation%20GLPI.md)
