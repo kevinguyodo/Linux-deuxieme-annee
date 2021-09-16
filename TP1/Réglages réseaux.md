@@ -16,6 +16,8 @@ Pour faire quelques réglages sur la VM il faudra tout d'abord la démarrer. Une
 
 ### Réglages réseaux dans les VM
 
+#### Dans la VM serveur
+
 Une fois dans la VM serveur, il faudra chercher son adresse ip. Il suffira d'ouvrir un terminal et de taper la commande suivante :
 ```
  ip addr
@@ -24,6 +26,15 @@ Une fois dans la VM serveur, il faudra chercher son adresse ip. Il suffira d'ouv
 Vous trouverez donc votre Ip comme indiqué ci-dessous en rouge :
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/ip.png)
+
+#### Dans la VM Client
+
+Après avoir constaté l'Ip de la VM serveur, nous devons vérifier l'adresse Ip de notre client. On va donc ouvrir le terminal(cmd) et taper la commande suivante :
+```
+ipconfig
+```
+
+![]()
 
 
 [Retour à l'étape précédente : Installation des machines virtuelles](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Installation%20VM.md)
