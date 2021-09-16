@@ -23,6 +23,7 @@ Donc dans le terminal linux, nous allons installer beaucoup d'outils afin de tra
 * Etape 12, Installation GLPI ligne de commande 1 : ``` cd /usr/src/```
 * Etape 13, Installation GLPI ligne de commande 2 : ```wget https://github.com/glpi-project/glpi/releases/download/9.3.3/glpi-9.3.3.tgz```
 * Etape 14, Installation GLPI ligne de commande 3 : ```tar -xvzf glpi-9.3.3.tgz -C /var/www/html```
+* Etape 15, Attribution des droits aux servers LAMP afin d'agir sur les fichiers téléchargé précédement :  ```chown -R www-data /var/www/html/glpi/ ```
 
 
 
