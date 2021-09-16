@@ -1,10 +1,19 @@
-# Installation de machine virtuelle
+# Mise en place de machine virtuelle
 
 ### Pré-requis pour l'installation d'une machine virtuelle
 
 * Il vous faut une image iso (Windows, Linux ...) afin de simuler votre système d'exploitation
   * [Lien pour télécharger une image iso Windows](https://www.microsoft.com/fr-fr/software-download/windows10)  
   * [Lien pour télécharger une image iso Debian](https://lecrabeinfo.net/telecharger-les-iso-de-debian-11-bullseye.html)
+
+* Une fois les deux images iso téléchargées, il nous faudra un logiciel permettant la virtualisation de poste de travail. Pour ce travail nous allons utilisé vmware workstation.
+  * [Lien pour télécharger vmware workstation](https://www.vmware.com/fr/products/workstation-pro/workstation-pro-evaluation.html)
+
+Nous avons donc tous les éléments permettant la création de deux machines virtuelles. 
+
+### Installation de machine virtuelle
+
+
 
 [Retour au plan](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Plan.md)
 
