@@ -31,7 +31,15 @@ Afin de configurer le GLPI, on va ouvrir un moteur de recherche. Et on va tapez 
 
 1. Etape 1 : Choix du language
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/first_page_GLPI.PNG)
+
+2. Etape 2 : Accepter les termes de la licence énoncés
+
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/seconde_page_GLPI.PNG)
+
+3. Etape 3 : Installer le GLPI
+
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/3eme_page_GLPI.PNG)
 
 
 
