@@ -12,9 +12,14 @@ Pour faire quelques réglages sur la VM il faudra tout d'abord la démarrer. Une
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Etape6.PNG)
 
-#### Il faudra faire ses instructions pour les 2 machines virtuelles
+#### Il faudra faire ses instructions pour les 2 machines virtuelles !
 
 ### Réglages réseaux dans les VM
+
+Une fois dans la VM serveur, il faudra chercher son adresse ip. Il suffira d'ouvrir un terminal et de taper la commande suivante :
+```
+ test12
+```
 
 
 [Retour à l'étape précédente : Installation des machines virtuelles](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Installation%20VM.md)
