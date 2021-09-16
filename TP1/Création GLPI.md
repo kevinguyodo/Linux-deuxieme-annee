@@ -25,6 +25,14 @@ Donc dans le terminal linux, nous allons installer beaucoup d'outils afin de tra
 * Etape 14, Installation GLPI ligne de commande 3 : ```tar -xvzf glpi-9.3.3.tgz -C /var/www/html```
 * Etape 15, Attribution des droits aux servers LAMP afin d'agir sur les fichiers téléchargé précédement :  ```chown -R www-data /var/www/html/glpi/ ```
 
+##### On va désormais configurer le GLPI via l'interface web
+
+Afin de configurer le GLPI, on va ouvrir un moteur de recherche. Et on va tapez dans l'URL : http://adresse_ip_du_serveur/glpi.
+
+1. Etape 1 : Choix du language
+
+![]()
+
 
 
 [Retour à l'étape précédente : Réglage réseaux](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/R%C3%A9glages%20r%C3%A9seaux.md)
