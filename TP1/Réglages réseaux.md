@@ -1,6 +1,20 @@
 # Réglages réseaux
 
-Afin de créer une connexion entre la VM Debian(serveur) et la VM Windows(client), il nous faudra faire quelque réglages sur VMWare.
+Afin de créer une connexion entre la VM Debian(serveur) et la VM Windows(client), il nous faudra faire quelques réglages sur VMWare.
+
+### Réglages VMWare
+
+Pour faire quelques réglages sur la VM il faudra tout d'abord la démarrer. Une fois que votre VM est fonctionnel suivez les instruction ci-dessosu.
+1. En haut à droite, il y a un bouton "Player". Il vous faudra cliquer dessus.
+2. Sélectionner "Manage" puis "Virtual machine settings..."
+3. Une fenêtre apparait avec tout les paramètres de votre machine, mais le paramètre qui nous intéresse, c'est celui qui se nomme "Network Adapter", il faudra donc cliquer dessus.
+4. Cocher la case "Bridged" et cocher la case "Replicate physical network connection state"
+
+![]()
+#### Il faudra faire ses instructions pour les 2 machines virtuelles
+
+### Réglages réseaux dans les VM
+
 
 [Retour à l'étape précédente : Installation des machines virtuelles](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Installation%20VM.md)
 
