@@ -3,7 +3,9 @@
 ##### Axes d'améliorations
 
 * Système de messagerie à améliorer 
-* Script 
+* Script pour sauvegarder à améliorer 
+* Administrer les controles d'accès aux utilisateurs
+* Créer des utilisateurs 
 
 
 ##### Sources 
@@ -12,7 +14,3 @@
 * [Microsoft](https://www.microsoft.com/fr-fr/software-download/windows10)
 * [Debian](https://www.debian.org/distrib/index.fr.html)
 * [Script sauvegarde](https://christiansueur.com/sauvegarde-automatique-de-votre-serveur-glpi/)
-
-
-
-conclusion
