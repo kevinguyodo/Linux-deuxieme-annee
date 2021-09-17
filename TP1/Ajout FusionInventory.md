@@ -32,9 +32,9 @@ mv fusioninventory-for-glpi-glpi9.3-1.3/ fusioninventory/
 
 Désormais nous allons sur l'interface web, donc dans l'URL nous allons taper : adresse_ip_serveur/glpi.
 
-Puis dans le menu horizontal, nous allons cliquer sur Configuration puis Plugins.
+Puis dans le menu horizontal, nous allons cliquer sur "Configuration" puis "Plugins".
 
-Puis suffira uniquement de cliqué sur le bouton "installé", dans la colonne "Conforme CSRF", puis cliqué sur "activer".
+Puis suffira uniquement de cliquer sur le bouton "Installé", dans la colonne "Conforme CSRF", puis cliquer sur "Activer".
 
 La fenêtre qui va s'afficher devrait ressembler à l'image ci-dessous :
 
@@ -46,7 +46,7 @@ Sur cette fenêtre on peut voir que le plugins a bien été détecté sur GLPI, 
 ##### Si vous souhaitez configurer le plugin, rendez-vous dans l'onget "Administration", puis "FusionInventory". Puis dans le menu horizontal vous pouvez configurer les tâches, les actions, le réseau...
 
 ### En cas du message d'alerte du cron sur GLPI, suivez les instructions suivantes :
-* Dans le terminal, exécutez les commandes suivantes
+* Dans le terminal, exécutez les commandes suivantes :
   * ```sudo crontab -u www-data -e```
   * Puis sélectionnez 1 et une fenêtre apparait et frappez la commande suivante à la fin : 
   * ```*/1 * * * * /usr/bin/php5 /var/www/html/glpi/front/cron.php &>/dev/null```
@@ -65,7 +65,7 @@ Une fois téléchargé, vous devez éxecuter votre fichier en tant qu'administra
 
 Puis suivre les prochaines étapes:
 * Etape 1 = Appuyez sur "suivant"
-* Etape 2 = Cochez la case "FusionInventory", afin que tout les outils nécessaire soit installés, cliquez sur suivant
+* Etape 2 = Cochez la case "FusionInventory", afin que tous les outils nécessaire soit installés, cliquez sur suivant
 * Etape 3 = Appuyez sur suivant, car le dossier d'installation est dans le bon répertoire de base
 * Etape 4 = Dans l'input en dessous de "Mode serveur", il faudra entrer "http://adresse_ip_serveur/glpi/plugins/fusioninventory/"
 * Etape 5 = Cliquez sur "Installer"
