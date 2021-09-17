@@ -72,7 +72,21 @@ Dans le terminal on va taper la commande :
 crontab -e
 ```
 
-Puis un
+Puis on va rajouter à la première ligne du cron la ligne suivante : 
+```
+* * * * * su root /etc/cron.daily/backup.sh
+```
+
+Or il va falloir changer les astérisques, par la date voulu. Les astériques se présentent dans l'ordre suivant :
+1. Le premier astérisque correspond aux minutes 
+2. Le second astérisque correspond aux heures
+3. Le troisième astérisque correspond aux jours du mois
+4. Le quatrième astérisque correspond aux mois
+5. Et le dernier astérisque correspond aux jours de la semaine
+
+Si on veut que la sauvegarde s'éxecute tout les jours de chaque mois à 15 heures 30 on laisse les 3 derniers astérisque et on va mettre 30 pour le premier astérisque et le 15 pour le second astérisque. Comme sur l'exemple ci-dessous:
+
+![]()
 
 [Retour à l'étape précédente : Ajout FusionInventory](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Ajout%20FusionInventory.md)
 
