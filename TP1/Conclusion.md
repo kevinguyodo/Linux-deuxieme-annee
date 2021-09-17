@@ -2,8 +2,8 @@
 
 ##### Axes d'améliorations
 
-* Système de messagerie non fonctionnel, due à un manque de domaine
-* Script non fonctionnel à 100% car j'ai malheureusement supprimé un dossier où il y avait un fichier sql nécessaire
+* Système de messagerie à améliorer 
+* Script 
 
 
 ##### Sources 
