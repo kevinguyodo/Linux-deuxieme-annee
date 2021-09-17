@@ -1,23 +1,23 @@
-# Mise en place de machine virtuelle
+# Mise en place de machines virtuelles
 
-### Pré-requis pour l'installation d'une machine virtuelle
+### Prérequis pour l'installation d'une machine virtuelle
 
 * Il vous faut une image iso (Windows, Linux ...) afin de simuler votre système d'exploitation
   * [Lien pour télécharger une image iso Windows](https://www.microsoft.com/fr-fr/software-download/windows10)  
   * [Lien pour télécharger une image iso Debian](https://lecrabeinfo.net/telecharger-les-iso-de-debian-11-bullseye.html)
 
-* Une fois les deux images iso téléchargées, il nous faudra un logiciel permettant la virtualisation de poste de travail. Pour ce travail nous allons utilisé vmware workstation.
+* Une fois les deux images iso téléchargées, il nous faudra un logiciel permettant la virtualisation de poste de travail. Pour ce travail nous allons utiliser vmware workstation.
   * [Lien pour télécharger vmware workstation](https://www.vmware.com/fr/products/workstation-pro/workstation-pro-evaluation.html)
 
 Nous avons donc tous les éléments permettant la création de deux machines virtuelles. 
 
-### Installation de machine virtuelle
+### Installation de machines virtuelles
 
 Une fois VMWare lancé, vous arrivez sur une interface graphique qui ressemble à l'image ci-dessous.
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Pr%C3%A9sentation_VMware.PNG)
 
-On peut voir à droite les machines virtuelles déjà créée. Et à droite on peut créer une machine virtuelle, et c'est donc cela que nous allons faire.
+On peut voir à droite les machines virtuelles déjà créées. Et à droite on peut créer une machine virtuelle, et c'est donc cela que nous allons faire.
 
 La première étape pour créer une machine virtuelle est de sélectionner l'image ISO téléchargée précédement. En choisissant la deuxième option proposée.
 
@@ -33,7 +33,7 @@ Puis VMWare nous propose de voir nos paramètres que l'on a attribué à cette m
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Etape5.PNG)
 
-Nous pouvons changer tout les paramètres en cliquant sur le bouton : "Customize Hardware...".
+Nous pouvons changer tous les paramètres en cliquant sur le bouton : "Customize Hardware...".
 
 Puis il s'agit d'installer la machine virtuelle, pour l'installation il faudra uniquement choisir la langue, langage du clavier...
 
