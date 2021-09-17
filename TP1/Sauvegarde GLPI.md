@@ -86,7 +86,7 @@ Or il va falloir changer les astérisques, par la date voulu. Les astériques se
 
 Si on veut que la sauvegarde s'éxecute tout les jours de chaque mois à 15 heures 30 on laisse les 3 derniers astérisque et on va mettre 30 pour le premier astérisque et le 15 pour le second astérisque. Comme sur l'exemple ci-dessous:
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/ligne_permettant_d'automatiser_le_script.PNG)
 
 [Retour à l'étape précédente : Ajout FusionInventory](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Ajout%20FusionInventory.md)
 
