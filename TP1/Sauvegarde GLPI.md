@@ -63,7 +63,7 @@ cd /tmp
 
 Un dossier est apparu se nommant "backup date_de_la_création_du_dossier" comme surl'exemple ci-dessous :
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Script_automatis%C3%A9.PNG)
 
 ### Automatiser l'éxecution du script
 
