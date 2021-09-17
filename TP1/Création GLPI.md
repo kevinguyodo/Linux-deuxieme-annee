@@ -1,6 +1,6 @@
 # Création GLPI
 
-##### Avant tout de choses, veillez à bien mettre à jour votre système sur votre VM serveurs avec la commande suivante :
+##### Avant toute choses, veillez à bien mettre à jour votre système sur votre VM serveurs avec la commande suivante :
 ```
 sudo apt-get update && sudo apt-get upgrade
 ```
@@ -41,7 +41,7 @@ Afin de configurer le GLPI, on va ouvrir un moteur de recherche. Et on va tapez 
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/3eme_page_GLPI.PNG)
 
-4. Etape 4 : Vérifier que tout les paquets sont bien installés, puis appuyez sur continuer
+4. Etape 4 : Vérifier que tous les paquets sont bien installés, puis appuyez sur continuer
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/4eme_page_GLPI.PNG)
 
