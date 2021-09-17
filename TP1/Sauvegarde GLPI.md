@@ -88,6 +88,8 @@ Si on veut que la sauvegarde s'éxecute tout les jours de chaque mois à 15 heur
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/ligne_permettant_d'automatiser_le_script.PNG)
 
+##### Super vous avez donc réussi à automatiser une sauvegarde de votre base de données !!
+
 [Retour à l'étape précédente : Ajout FusionInventory](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Ajout%20FusionInventory.md)
 
 [Prochaine étape : Messagerie](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/Messagerie.md)
