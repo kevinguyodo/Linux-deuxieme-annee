@@ -51,7 +51,7 @@ mysqldump -u$glpi_user -p$glpi_pass -h localhost DB_glpi > $bkp_sql
 tar -cvzf $bkp_gen $bkp
 ```
 
-On va pouvoir éxecuter ce script dans le terminal avec 
+On va pouvoir éxecuter ce script dans le terminal avec :
 ```
 ./backup.sh
 ```
@@ -61,7 +61,7 @@ Ce script va donc créer une sauvegarde dans le dossier "/tmp", on va donc aller
 cd /tmp
 ```
 
-Un dossier est apparu se nommant "backup date_de_la_création_du_dossier" comme surl'exemple ci-dessous :
+Un dossier est apparu se nommant "backup date_de_la_création_du_dossier" comme sur l'exemple ci-dessous :
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Script_automatis%C3%A9.PNG)
 
