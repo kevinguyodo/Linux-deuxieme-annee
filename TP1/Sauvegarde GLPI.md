@@ -61,7 +61,9 @@ Ce script va donc créer une sauvegarde dans le dossier "/tmp", on va donc aller
 cd /tmp
 ```
 
-Un dossier est apparu se nommant "backup date_de_la_création_du_dossier"
+Un dossier est apparu se nommant "backup date_de_la_création_du_dossier" comme surl'exemple ci-dessous :
+
+![]()
 
 ### Automatiser l'éxecution du script
 
