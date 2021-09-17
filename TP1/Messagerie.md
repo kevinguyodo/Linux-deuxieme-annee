@@ -2,9 +2,9 @@
 
 ##### Pour créer un système de messagerie on va aller sur l'interface web GLPI. 
 
-Tout d'abord il faut se connecter à la GLPI, puis aller dans le menu "Configuration" -> Authentification -> Serveurs de messagerie.
+Tout d'abord il faut se connecter à la GLPI, puis aller dans le menu "Configuration" -> "Authentification" -> "Serveurs de messagerie".
 
-Puis dans le menu horizontal, cliqué sur "+", afin d'ajouter une messagerie.
+Puis dans le menu horizontal, cliquer sur "+", afin d'ajouter une messagerie.
 
 Une fenêtre ressemblant à ceci devrait apparaitre :
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Messagerie_1.PNG)
@@ -20,7 +20,7 @@ Un exemple avec le champs rempli :
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP1/IMG/Messagerie_2.PNG)
 
-Puis valider la messagerie, et lors de la validation en bas à droite il y a une pop-up qui apparait on va donc cliqué dessus et on verra donc que la messagerie est bien fonctionnel.
+Puis valider la messagerie, et lors de la validation en bas à droite il y a une pop-up qui apparait on va donc cliquer dessus et on verra donc que la messagerie est bien fonctionnel.
 
 ##### Vous avez réussi à créer votre messagerie !!
 
