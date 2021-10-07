@@ -25,4 +25,16 @@ Ici on peut voir que debian et localhost sont attribué à un adresse IP, c'est 
 
 On peut donc apercevoir que notre adresse IP était 192.168.2.129. On a donc attribué cette adresse IP à notre nom de domaine comme ci-dessous :
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/change_DNS.png)
+
+Ici on voit à droite notre adresse IP, et à gauche le nom de notre domaine.
+
+### Il nous reste donc à tester si ça fonctionne, pour cela il faut taper dans l'URL : http://www.test.elouan
+
+On obtient donc ce résultat :
+
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/DNS_mis_en_place.png)
+
+[Revenir à l'étape 1 : Création du site web](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Cr%C3%A9ation%20site%20web.md)
+
+[Etape 3 : Mise en place du certificat SSL](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Certificat%20SSL.md)
