@@ -17,4 +17,4 @@ nano hosts
 
 Une fenêtre s'est ouvert et elle ressemblait à ceci :
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/fichier_hosts_sans_modification.png)
