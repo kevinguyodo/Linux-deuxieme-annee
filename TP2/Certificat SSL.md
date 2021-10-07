@@ -46,7 +46,7 @@ On a donc ceci en retour :
 
 #### On voit donc que toute nos information qui ont été entré sont valides
 
-La prochaine et dernière étape est l'auto-signature du certificat, pour cela on a entré la commande suivante :
+La prochaine étape est l'auto-signature du certificat, pour cela on a entré la commande suivante :
 
 ```
 sudo openssl x509 -req -days 365 -in server.csr -signkey server.key server.crt
@@ -57,6 +57,20 @@ Cette commande va permettre de créer le certificat SSL valide pendant 365 jours
 On obtient donc le résultat suivant :
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/ssl_signature.png)
+
+#### Il reste une dernière étape.
+
+La dernière étape était de changer deux lignes dans le fichier default-ssl.conf, qui se trouve dans le fichier ssl.
+
+Pour accéder à ce fichier on a tapé la commande suivante :
+
+```
+nano /etc/ssl/default-ssl.conf
+```
+
+Une fois dans le fichier, il faudra s'assurer que les deux lignes : 'SSLCertificateFile' et 'SSLCertificateKeyFile' ont pour valeur, '/etc/ssl/server.crt' et '/etc/ssl/server.key'. Comme sur l'exemple ci-dessous :
+
+![]()
 
 ### On a donc créé le certificat SSL valide pendant 1 an, la prochaine et dernière étape est la mise en place d'une solution haute-disponibilité.
 
