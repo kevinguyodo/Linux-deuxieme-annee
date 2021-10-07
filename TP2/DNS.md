@@ -35,6 +35,8 @@ On obtient donc ce résultat :
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/DNS_mis_en_place.png)
 
+## On voit donc que tout fonctionne, la prochaine étape est la mise en place du certificat SSL
+
 [Revenir à l'étape 1 : Création du site web](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Cr%C3%A9ation%20site%20web.md)
 
 [Etape 3 : Mise en place du certificat SSL](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Certificat%20SSL.md)
