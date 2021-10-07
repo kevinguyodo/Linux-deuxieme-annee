@@ -42,4 +42,18 @@ sudo openssl req -text -noout -in server.csr
 
 On a donc ceci en retour : 
 
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/verification_donn%C3%A9es.png)
+
+#### On voit donc que toute nos information qui ont été entré sont valides
+
+La prochaine et dernière étape est l'auto-signature du certificat, pour cela on a entré la commande suivante :
+
+```
+sudo openssl x509 -req -days 365 -in server.csr -signkey server.key server.crt
+```
+
+Cette commande va permettre de créer le certificat SSL valide pendant 365 jours et au format x509
+
+On obtient donc le résultat suivant :
+
 ![]()
