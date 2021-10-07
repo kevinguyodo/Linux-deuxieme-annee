@@ -32,4 +32,4 @@ sudo openssl req -new -key server.key -out server.csr
 
 Puis on a répondu à quelques questions afin de compléter la demande de signature. Le résultat obtenu était le suivant :
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/demande_de_signature.png)
