@@ -56,4 +56,10 @@ Cette commande va permettre de créer le certificat SSL valide pendant 365 jours
 
 On obtient donc le résultat suivant :
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/ssl_signature.png)
+
+### On a donc créé le certificat SSL valide pendant 1 an, la prochaine et dernière étape est la mise en place d'une solution haute-disponibilité.
+
+[Retour à l'étape précédente : Attribution nom de domaine](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/DNS.md)
+
+[Etape 4 : Mise en place d'une solution de haute-disponibilité](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Haute%20disponibilit%C3%A9.md)
