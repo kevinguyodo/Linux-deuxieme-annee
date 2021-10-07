@@ -70,7 +70,7 @@ nano /etc/ssl/default-ssl.conf
 
 Une fois dans le fichier, il faudra s'assurer que les deux lignes : 'SSLCertificateFile' et 'SSLCertificateKeyFile' ont pour valeur, '/etc/ssl/server.crt' et '/etc/ssl/server.key'. Comme sur l'exemple ci-dessous :
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/ssl_conf.png)
 
 ### On a donc créé le certificat SSL valide pendant 1 an, la prochaine et dernière étape est la mise en place d'une solution haute-disponibilité.
 
