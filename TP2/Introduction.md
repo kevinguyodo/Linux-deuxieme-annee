@@ -4,7 +4,7 @@
 
 # Sommaire :
   * [Stratégie adopté]()
-    * [Mise en place du site internet]() 
-    * [Attribution d'un nom de domaine au site]()
+    * [Mise en place du site internet](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Cr%C3%A9ation%20site%20web.md) 
+    * [Attribution d'un nom de domaine au site](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/DNS.md)
     * [Mise en place du certificat SSL]()
     * [Création de la solution de haute disponibilité]()
