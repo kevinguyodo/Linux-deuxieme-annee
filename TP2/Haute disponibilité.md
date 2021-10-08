@@ -130,5 +130,7 @@ systemctl start pacemaker
  
  ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/crm_status.png)
  
+ [Retour à l'étape précédente : Certificat SSL](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Certificat%20SSL.md)
  
+ [Conclusion](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Conclusion.md)
  
