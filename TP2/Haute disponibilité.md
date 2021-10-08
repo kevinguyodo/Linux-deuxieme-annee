@@ -25,4 +25,21 @@ Puis nous avons rajouté un dns avec l'adresse IP d'une autre VM qui sera le deu
 
 On peut donc voir qu'on a rajouté un serveur avec l'adresse IP suivante : 192.168.2.130, qui a comme nom de domaine www.test2.elouan
 
+#### On avait donc 2 serveurs avec deux adresses IP différente :
+#### * Premier serveur avec une adresse IP = 192.168.2.129
+#### * Deuxième serveur avec une adresse IP = 192.168.2.130
 
+L'étape suivante était pour nous d'ouvrir  les port UDP 5404 et 5405 en entrée et sortie, avec la commande suivante :
+ ```
+sudo iptables -I INPUT -m state --state NEW -p udp -m multiport --dports 5404,5405 -j ACCEPT
+sudo iptables -I OUTPUT -m state --state NEW -p udp -m multiport --sports 5404,5405 -j ACCEPT
+ ```
+ 
+ Puis nous avons généré la clé d'authentification pour la communication de corosync entre les deux serveurs comme ceci :
+ 
+ ```
+ sudo corosync-keygen
+ ```
+ 
+ ![]()
+ 
