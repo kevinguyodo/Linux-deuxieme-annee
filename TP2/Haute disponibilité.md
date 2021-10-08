@@ -21,4 +21,8 @@ sudo nano /etc/hosts
 
 Puis nous avons rajouté un dns avec l'adresse IP d'une autre VM qui sera le deuxième serveur. Comme ceci :
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/rajout_d'un_serveur.png)
+
+On peut donc voir qu'on a rajouté un serveur avec l'adresse IP suivante : 192.168.2.130, qui a comme nom de domaine www.test2.elouan
+
+
