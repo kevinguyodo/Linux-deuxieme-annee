@@ -41,5 +41,94 @@ sudo iptables -I OUTPUT -m state --state NEW -p udp -m multiport --sports 5404,5
  sudo corosync-keygen
  ```
  
- ![]()
+ ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/corosync-leygen.png)
+ 
+ ##### On voit donc ici que la clé a bien été créée correctement
+ 
+ Puis les prochaines étapes était de faire des copies de fichiers d'un serveur à un autre. Nous allons donc voir ça ensemble point par point :
+ 
+ #### 1. Dans un premier temps nous devions copier le fichier authkey vers le nouveau serveur, pour ce faire nous avons été sur la deuxième VM qui possède le role de deuxième serveur et nous avons suivis le schéma suivant :
+ ```
+ sudo scp nom_utilisateur@adresse_ip_serveur1 chemin_du_fichier_dans_le_serveur1 emplacement_voulu_dans_le_server2
+ ```
+ 
+ Ceci nous donne le résultat suivant :
+ 
+ ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/copie_fichier1.png)
+ 
+ La première copie a bien été effecuté
+ 
+ #### 2. De retour dans l'ordinateur ayant comme fonction le premier serveur, on a créé la nouvelle configuration de corosync, on est donc rentré dans le fichier corosync.conf avec la commande suivante :
+ 
+ ```
+ nano /etc/corosync/corosync.conf
+ ```
+ 
+ Puis on a tapé la configuration suivante :
+ 
+ ```
+ logging {
+  debug: off
+  to_syslog: yes
+}
+nodelist {
+  node {
+    name: www.test.elouan
+    nodeid: 1
+    quorum_votes: 1
+    ring0_addr: 192.168.2.129
+  }
+  node {
+    name: www.test2.elouan
+    nodeid: 2
+    quorum_votes: 1
+    ring0_addr: 192.168.2.130
+  }
+}
+quorum {
+  provider: corosync_votequorum
+}
+totem {
+  cluster_name: cluster-ha
+  config_version: 3
+  ip_version: ipv4
+  secauth: on
+  version: 2
+  
+  interface {
+    bindnetaddr: 192.168.2.129
+    ringnumber: 0
+  }
+}
+ ```
+ 
+ Donc dans cette configuration on va définir que le premier serveur utilisé sera www.test.elouan et le second serveur utilisé en cas de panne ou autre problème technique  sera www.test2.elouan
+ 
+ 
+ #### 3. On a donc fait le copie de cette configuration dans l'ordinateur du serveur 2, on a repris le même schéma expliqué au dessus, ce qui nous donne l'exemple suivant :
+ 
+ ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/Copie_configuration.png)
+ 
+ La copie a donc bien été effectué
+ 
+ #### C'était la fin des copies d'un serveur à l'autre, les étapes suivantes était pour nous de démarrer les services corosync et pacemaker 
+ 
+ Pour ce faire nous avons entré deux commande dans le terminal : 
+ 
+ ```
+systemctl start corosync
+systemctl start pacemaker
+ ```
+ 
+ Puis nous avons vérifié l'état du cluster avec la commande suivante :
+ 
+ ```
+ sudo crm status
+ ```
+ 
+ Le résultat que nous avons obtenu est celui-ci :
+ 
+ ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/crm_status.png)
+ 
+ 
  
