@@ -184,7 +184,9 @@ sudo crm status
 
 Et on obtient le résultat suivant, qui nous montre que notre cluster est bien fonctionnel.
 
-![]()
+![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/crm-status-2.png)
+
+
  ### On a donc réussi à créer une solution de haute disponibilité, la solution que l'on a créée ressemble au schéma se trouvant tout en haut  
  
  [Retour à l'étape précédente : Certificat SSL](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Certificat%20SSL.md)
