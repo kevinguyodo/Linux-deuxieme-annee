@@ -163,14 +163,28 @@ systemctl start pacemaker
 systemctl restart networking
 ```
  
- Puis la dernière étape était de créer une adresse IP virtuelle, donc c'est l'adresse IP de notre serveur web, donc 192.168.2.131
+ Et l'étape suivante était de créer une adresse IP virtuelle, donc c'est l'adresse IP de notre serveur web, donc 192.168.2.131
  
  Pour ce faire on a tapé la commande suivante :
  
  ```
  sudo crm configure primitive VIP ocf:heartbeat:IPaddr2 params ip="192.168.2.131" cidr_netmask="24" nic="ens33:1" op monitor interval="10s" timeout="20" meta failure-timeout="5"
  ```
+ Puis on créer un groupe de ressources avec l'IP virtuelles configurer précédement, on fait ceci avec la commande suivante :
  
+ ```
+ sudo crm configure location grpipv grpipv-location grpipv 50: www.test.elouan
+ ```
+ 
+ On va ensuite checker le status de notre cluster afin de voir si il est bien fonctionnel, avec :
+ 
+```
+sudo crm status
+```
+
+Et on obtient le résultat suivant, qui nous montre que notre cluster est bien fonctionnel.
+
+![]()
  ### On a donc réussi à créer une solution de haute disponibilité, la solution que l'on a créée ressemble au schéma se trouvant tout en haut  
  
  [Retour à l'étape précédente : Certificat SSL](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Certificat%20SSL.md)
