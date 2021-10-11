@@ -1,6 +1,6 @@
 # Sommaire
 
-## Afin de mener à bien notre projet nous avons décidé de travailler sur 4 grands axes. Les grands axes sont les suivant :
+## Afin de mener à bien notre projet nous avons décidé de travailler sur 4 grands axes. Les grands axes sont les suivants :
 
 1. Création du site internet 
 2. Mise en place d'un nom de domaine (nom de l'entreprise dans l'URL)
