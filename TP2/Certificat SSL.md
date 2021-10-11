@@ -1,6 +1,6 @@
 # Certificat SSL
 
-Pour mettre en place un certificat SSL, nous devions tout d'abord installer openssl sur notre VM. Pour rappel openssl est une bibliothèque qui permet de créer un certificat SSL gratuitement. Car il y a beaucoup de bibliothèque payante.
+Pour mettre en place un certificat SSL, nous devions tout d'abord installer openssl sur notre VM. Pour rappel openssl est une bibliothèque qui permet de créer un certificat SSL gratuitement. Car il y a beaucoup de bibliothèques payante.
 
 Pour installer openssl, on a tapé en ligne de commande :
 
@@ -44,7 +44,7 @@ On a donc ceci en retour :
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/verification_donn%C3%A9es.png)
 
-#### On voit donc que toute nos information qui ont été entré sont valides
+#### On voit donc que toutes nos informations qui ont été entré sont valides
 
 La prochaine étape est l'auto-signature du certificat, pour cela on a entré la commande suivante :
 
