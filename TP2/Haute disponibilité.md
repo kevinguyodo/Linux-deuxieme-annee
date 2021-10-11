@@ -6,7 +6,7 @@
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/sch%C3%A9ma_haute-disponibilit%C3%A9.png)
 
 
-### Afin de mettre en place une solution de haute-disponibilité, nous avons fait le choix d'installer corosync et pacemaker qui sont des outils nécessaire pour la mise en place de la solution.
+### Afin de mettre en place une solution de haute-disponibilité, nous avons fait le choix d'installer corosync et pacemaker qui sont des outils nécessaires pour la mise en place de la solution.
 
 On a donc installé corosync et pacemaker dans le terminal avec la ligne de commande suivante :
 
