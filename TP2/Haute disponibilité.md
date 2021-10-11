@@ -25,7 +25,7 @@ Tout d'abord on a rajouté un serveur dans le fichier /etc/hosts. Pour ce faire 
 sudo nano /etc/hosts
 ```
 
-Puis nous avons rajouté un dns avec l'adresse IP d'une autre VM qui sera le deuxième serveur. Comme ceci :
+Puis nous avons rajouté un DNS avec l'adresse IP d'une autre VM qui sera le deuxième serveur. Comme ceci :
 
 ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/rajout_d'un_serveur.png)
 
@@ -140,7 +140,7 @@ systemctl start pacemaker
  
  L'adresse IP de notre serveur sera : 192.168.2.131
  
- On a onc relié nos  server créer précèdement à notre serveur qui hébergera le site web.
+ On a onc relié nos serveur créer précèdement à notre serveur qui hébergera le site web.
  
  On a modifié le fichier interfaces qui se trouve dans le dossier /etc/network. Pour ce faire on a tapé la commande suivante :
  
