@@ -26,7 +26,7 @@ Puis le fichier était renommé, désormais il fallait changer le contenu de cel
 nano index.php
 ```
 
-Puis nous devions donner du contenu au site web, on a donc tapé les quelques ligne suivantes :
+Puis nous devions donner du contenu au site web, on a donc tapé les quelques lignes suivantes :
 
 ```
 <?php
@@ -36,7 +36,7 @@ Puis nous devions donner du contenu au site web, on a donc tapé les quelques li
 
 Puis nous avons quitté en sauvegardant, et donc notre site affichait simplement Bonjour.
 
-### Si vous voulez testé votre site internet vous pouvez taper dans l'URL d'un moteur de recherche l'IP de votre machine, et 'Bonjour' sera affiché.
+### Si vous voulez tester votre site internet vous pouvez taper dans l'URL d'un moteur de recherche l'IP de votre machine, et 'Bonjour' sera affiché.
 
 ### Nous allons dès à présent attribuer à notre site un nom de domaine.
 
