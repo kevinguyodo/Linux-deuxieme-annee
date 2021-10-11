@@ -136,6 +136,36 @@ systemctl start pacemaker
  
  ![](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/IMG/crm_status.png)
  
+ #### La prochaine étape était de lier les deux serveur sur un même serveur afin de faire fonctionner le site web correctement.
+ 
+ L'adresse IP de notre serveur sera : 192.168.2.131
+ 
+ On a onc relié nos  server créer précèdement à notre serveur qui hébergera le site web.
+ 
+ On a modifié le fichier interfaces qui se trouve dans le dossier /etc/network. Pour ce faire on a tapé la commande suivante :
+ 
+ ```
+ nano /etc/network/interfaces
+ ```
+ 
+ Puis en bas du fichier on a tapé la configuration suivante :
+ 
+ ```
+ auto ens33:1
+ iface ens33:1 inet static
+   address 192.168.2.131
+   netmask 255.255.255.0
+ ```
+ 
+ Puis la dernière étape était de créer une adresse IP virtuelle, donc c'est l'adresse IP de notre serveur web, donc 192.168.2.131
+ 
+ Pour ce faire on a tapé la commande suivante :
+ 
+ ```
+ sudconfigure primitive virtual_ip_eth1 ocf:heartbeat:IPaddr2 params ip="10.xx.xx.246" cidr_netmask="29" nic="bond0" op monitor interval="10s" timeout="20" meta failure-timeout="5"
+ ```
+ 
+ 
  [Retour à l'étape précédente : Certificat SSL](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Certificat%20SSL.md)
  
  [Conclusion](https://github.com/kevinguyodo/Linux-deuxieme-annee/blob/main/TP2/Conclusion.md)
